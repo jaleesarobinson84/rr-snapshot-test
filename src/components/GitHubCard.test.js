@@ -5,9 +5,9 @@ import '@testing-library/jest-dom/extend-expect';
 import GitHubCard from './GitHubCard';
 
 test('renders GitHubCard correctly', () => {
-  const username = 'YourUserName';
-  const imageUrl = 'path/to/your/image';
-  const bio = 'A blurb about yourself';
+  const username = 'Jaleesa';
+  const imageUrl = '/public/Karma-Sleeping';
+  const bio = 'I love graphic tees and socks';
   
   const { container } = render(<GitHubCard username={username} imageUrl={imageUrl} bio={bio} />);
   
